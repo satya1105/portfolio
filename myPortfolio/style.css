@@ -193,28 +193,35 @@ section .title::after{
 
 .home .home-content .text-1 {
     font-size: 22px;
+    color: #ffffff; /* White color */
+    text-shadow: 2px 2px 5px #000000; /* 3D text effect */
 }
 
 .home .home-content .text-2 {
     font-size: 68px;
     font-weight: 600;
     margin-left: 0; /* Reset margin to 0 for better centering */
+    color: #ffffff; /* White color */
+    text-shadow: 2px 2px 5px #000000; /* 3D text effect */
 }
 
 .home .home-content .text-3 {
     font-size: 40px;
     margin: 5px 0;
+    color: #ffffff; /* White color */
+    text-shadow: 2px 2px 5px #000000; /* 3D text effect */
 }
 
 .home .home-content .text-3 span {
     color: crimson;
     font-weight: 500;
+    text-shadow: 2px 2px 5px #000000; /* 3D text effect */
 }
 
 .home .home-content a {
     display: inline-block;
     background: crimson;
-    color: #fff;
+    color: #ffffff; /* White color */
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -222,11 +229,13 @@ section .title::after{
     border-radius: 6px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* 3D effect */
 }
 
 .home .home-content a:hover {
     color: crimson;
     background: none;
+    text-shadow: 2px 2px 5px #000000; /* 3D text effect */
 }
 
 
