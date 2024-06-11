@@ -168,8 +168,10 @@ section .title::after{
 
 
 /* home section styling */
-.home{
+.home {
     display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
     background: url("image2.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
@@ -178,32 +180,38 @@ section .title::after{
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
-.home .max-width{
-  margin-top: 51px;
-  justify-content: right;
-  width: 100%;
-  display: flex;
+
+.home .max-width {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Ensures the max-width container is centered */
 }
-.home .max-width .row{
-  margin-right: 0;
+
+.home .home-content {
+    text-align: center; /* Centers the text inside the container */
 }
-.home .home-content .text-1{
+
+.home .home-content .text-1 {
     font-size: 22px;
 }
-.home .home-content .text-2{
+
+.home .home-content .text-2 {
     font-size: 68px;
     font-weight: 600;
-    margin-left: -3px;
+    margin-left: 0; /* Reset margin to 0 for better centering */
 }
-.home .home-content .text-3{
+
+.home .home-content .text-3 {
     font-size: 40px;
     margin: 5px 0;
 }
-.home .home-content .text-3 span{
+
+.home .home-content .text-3 span {
     color: crimson;
     font-weight: 500;
 }
-.home .home-content a{
+
+.home .home-content a {
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -215,10 +223,12 @@ section .title::after{
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
-.home .home-content a:hover{
+
+.home .home-content a:hover {
     color: crimson;
     background: none;
 }
+
 
 /* about section styling */
 .about .title::after{
